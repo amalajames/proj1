@@ -1,0 +1,49 @@
+Git and Github
+--------------
+Git- Version control System
+
+Git is a version control system that lets you manage and keep track of your source code
+history. GitHub is a cloud-based hosting service that lets you manage Git repositories. 
+If you have open-source projects that use Git, then GitHub is designed to help you better 
+manage them.
+
+Git Operations
+
+Repository-->means a folder
+Repository is remote means anybody and many people can access
+
+SCM- Software Configuration Management
+
+Git hub : Remote Repository
+Our system: Local Repository
+
+Git operations
+—---------------
+Push → Upload new project and new updations from local repository to remote repository
+Pull → New updations: remote repo to local repo
+Clone → Exact copy of project from remote repo to local repo
+
+Git
+---
+Open git bash here
+git --version // to check version of git
+git init
+git status
+
+branch master
+untracked files-->files which is not added to staging area
+git add .
+git status
+git commit -m "message" (eg: "initial commit")
+git status
+git remote -v
+git remote add l1 (where l1 is a variable)
+git remote -v
+git push -u l1 master
+
+
+Github
+------
+Go to repository settings
+Pages-->Branch-->master-->save
+
